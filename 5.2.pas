@@ -4,7 +4,7 @@ type  ptr = ^elem;
              ref:ptr;
              end;
              
-procedure add_begin(var root:ptr; x:integer);
+procedure add_begin(var root:ptr; x:integer); //РїРѕР·РѕСЂ РЅР° РјРѕСЋ СЃРµРґСѓСЋ РіРѕР»РѕРІСѓ!!!
 var a:ptr;
 begin
   new(a);
@@ -47,7 +47,7 @@ begin
     writeln();
   end
   else
-    writeln('В списке нет элементов.');
+    writeln('пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.');
 end;
 
 procedure change(var a,b:ptr);
