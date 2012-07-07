@@ -4,7 +4,7 @@ type  ptr = ^elem;
              ref:ptr;
              end;
              
-procedure add_begin(var root:ptr; x:integer); //позор на мою седую голову!!!
+procedure add_begin(var root:ptr; x:integer);
 var a:ptr;
 begin
   new(a);
